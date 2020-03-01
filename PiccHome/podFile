@@ -1,0 +1,11 @@
+platform :ios, '9.0' #手机的系统
+    target 'PiccHome' do #工程名字
+    pod 'Masonry' #布局
+    pod 'MJRefresh'  #刷新
+    pod 'MJExtension' #模型转换
+    pod 'AFNetworking' #网络请求
+    pod 'SDWebImage'  #处理图片
+    pod 'SVProgressHUD'  #弹框
+    pod 'YYCategories', '~> 1.0.4'  # 高效的类目
+    pod 'YYCache' #缓存
+ end   
